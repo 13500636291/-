@@ -1,0 +1,62 @@
+/* 覆盖element-ui的样式 */
+
+// .el-container {
+//   width: 100%;
+//   height: 100%;
+//   .el-aside {
+//     width: 112*2px!important;
+//     width: 100%;
+//     height: 100%;
+//     background-color: #0E1935;
+//   }
+//   .el-submenu__title:hover{
+//     background-color: #122043!important;
+//   }
+// }
+.el-container .el-submenu__title {
+    color: #BBBBBB!important;
+}
+
+.el-container .el-submenu .el-menu-item,
+.el-container .el-submenu__title {
+    height: 31*2px;
+    line-height: 31*2px;
+}
+
+.el-submenu__title:hover {
+    background-color: #122043!important;
+}
+
+.el-container .el-main {
+    padding: 0;
+}
+
+.el-input__inner {
+    height: 33px!important;
+    line-height: 33px!important;
+}
+
+.el-input__prefix .el-input__icon {
+    line-height: 33px;
+}
+
+.el-date-editor .el-icon-date {
+    display: none;
+}
+
+//用户投诉 操作 弹出框
+.el-message-box__wrapper .MessageBox {
+    width: 249px;
+    height: 146px;
+    padding-bottom: 0;
+    .el-message-box__content {
+        padding: 30px;
+        font-size: 18px;
+    }
+    .el-message-box__btns {
+        padding: 15px 15px 0;
+    }
+    .el-button--small {
+        padding: 9px 30px;
+    }
+}
